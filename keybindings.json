@@ -1,0 +1,36 @@
+[
+    {
+        "key": "ctrl+shift+W",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "cmd+W",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+W",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+alt+L",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+D",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+G",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+B",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    }    
+]
+
